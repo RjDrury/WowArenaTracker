@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width={device-width}, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   
+
+    <h1>Welcome to WOW arena friend Tracker</h1>
+    <h4>Look up and track all your friends rating</h4>
+    <p>Only works with NA</p>
+
+    <form method = "POST" action="/update">
+        <input type="text" placeholder="Character Name" name="name" id="name"></input>
+        <input type="text" placeholder="Realm" name="realm" id="server"></input>
+        <button type="submit" placeholder="search"  id="lookup">Search</button>
+    </form>
+
+
+    {% for characters in data %}
+        {{ characters['twos']}}
+    {% endfor %}
+
+</body>
+</html>
