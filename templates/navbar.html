@@ -1,0 +1,14 @@
+
+<div class="navbar">
+    <div>
+        <a class="navbar-brand" href="#">WoW Arena Tracker</a>
+    </div>
+    <div>
+            {% if logged_in %}
+            <form class="form-inline my-2 my-lg-0" method="POST" action="/logout">
+                <button type="submit" placeholder="logout" value="logout" />Logout</button>
+                
+            </form>
+            {%endif%}
+    </div>
+</div>
