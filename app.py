@@ -16,7 +16,7 @@ from route import *
 
 if __name__ == '__main__':
     app.secret_key = "top_secret"
-    db.create_all()
+   # db.create_all()
     app.run(host='0.0.0.0', debug=True)
 
 
