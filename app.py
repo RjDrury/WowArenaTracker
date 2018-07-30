@@ -25,8 +25,9 @@ from route import *
 if __name__ == '__main__':
     app.secret_key = "top_secret"
    # db.create_all()
-    manager.run()
+  
     app.run(host='0.0.0.0', port=port)
+    manager.run()
 
 #import os from pml import app port = int(os.environ.get('PORT', 5000)) app.run(host='0.0.0.0', port=port)
 
