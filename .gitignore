@@ -3,3 +3,4 @@
 venv
 todo.txt
 __pycache__
+migrations
