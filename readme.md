@@ -1,5 +1,7 @@
 # WoW Arena Tracker
 
+##No longer works as it needs to be updated to the latest version of the WoW API
+
 ## Purpose
 
 - Keep track of your friends arena ratings in one page
